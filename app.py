@@ -236,27 +236,11 @@ st.write(
 
 
 
-with st.sidebar:
+# ---------------- API KEYS ----------------
 
+groq_key = st.secrets["GROQ_API_KEY"]
 
-    groq_key = st.text_input(
-
-        "Groq API Key",
-
-        type="password"
-
-    )
-
-
-    serper_key = st.text_input(
-
-        "Serper API Key",
-
-        type="password"
-
-    )
-
-
+serper_key = st.secrets["SERPER_API_KEY"]
 
 
 pdf = st.file_uploader(
@@ -270,16 +254,6 @@ pdf = st.file_uploader(
 
 
 if pdf:
-
-
-    if not groq_key or not serper_key:
-
-        st.warning(
-            "Enter API keys"
-        )
-
-        st.stop()
-
 
 
     if st.button(
