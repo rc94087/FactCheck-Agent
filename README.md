@@ -107,7 +107,7 @@ FactCheck-Agent/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/FactCheck-Agent.git
+git clone https://github.com/rc94087/FactCheck-Agent.git
 
 cd FactCheck-Agent
 ```
