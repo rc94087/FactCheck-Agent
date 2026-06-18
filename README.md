@@ -210,4 +210,3 @@ The system highlights false information and provides corrected facts.
 
 **Rahul Chauhan**
 
-Built for Cog Culture Product Management Trainee Assessment.
